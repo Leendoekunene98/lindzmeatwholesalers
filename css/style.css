@@ -1,0 +1,113 @@
+/*colors and fonts */
+
+
+body {
+  background-color: silver;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  background-position: left;
+
+}
+
+h1{
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 5px;
+  font-size: 45px;
+  font-weight: 50px;
+}
+
+h2{
+  color: blue;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: lighter;
+}
+
+h3{
+  color: black;
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-weight: 70;
+}
+
+h4{
+  color: black;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+
+h5{
+  color: blue;
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-weight: 70;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  color: pink;
+}
+
+.image{
+  height:400px;
+  width:300px;
+  border-radius: 10px;
+}
+
+
+/* custom design with class (99% of your design */)
+  .container{
+    width: 700px;
+    margin:4px auto;
+  }
+
+@media (max-width: 960px) {
+  /* for a screen < 960px, this will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width:720px)  {
+  /* for a screen < 720px, this css will be read*/
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width:540px) {
+  /*for a screen <540, this css will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+}
+
+.btn-blue {
+  font-size:13px;
+  color: white;
+  padding: 5px 0px;
+  border-radius: 4px;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 2px;
+  border:5px solid blue;
+  border-radius: 5px;
+  background-color: aqua;
+  font-size: 20px;
+  font-color: black;
+  position: auto;
+}
+
+.wrapper {
+  min-height: 150px;
